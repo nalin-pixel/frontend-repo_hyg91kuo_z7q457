@@ -24,14 +24,14 @@ export default function Header() {
       >
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-md bg-gradient-to-br from-emerald-400 to-emerald-600 shadow-inner" />
-            <span className="text-sm tracking-widest uppercase text-gray-700 dark:text-gray-200">Catina Studio</span>
+            <div className="w-6 h-6 rounded-md bg-gradient-to-br from-amber-400 to-orange-600 shadow-inner" />
+            <span className="text-sm tracking-widest uppercase text-gray-700 dark:text-gray-200">Catina lui BICU</span>
           </div>
           <div className="hidden md:flex items-center gap-6 text-sm text-gray-700/80 dark:text-gray-200/80">
             <a href="#story" className="hover:text-black dark:hover:text-white transition-colors">Story</a>
-            <a href="#features" className="hover:text-black dark:hover:text-white transition-colors">Features</a>
+            <a href="#features" className="hover:text-black dark:hover:text-white transition-colors">Benefits</a>
             <a href="#compare" className="hover:text-black dark:hover:text-white transition-colors">Overview</a>
-            <a href="#contact" className="px-4 py-2 rounded-full bg-emerald-600 text-white hover:bg-emerald-500 transition-colors">Inquire</a>
+            <a href="#contact" className="px-4 py-2 rounded-full bg-amber-600 text-white hover:bg-amber-500 transition-colors">Order now</a>
           </div>
         </nav>
       </div>

@@ -3,20 +3,20 @@ import { useRef } from 'react'
 
 const features = [
   {
-    title: 'Precision Craft',
-    copy: 'Every pixel considered. Every motion purposeful.',
+    title: 'Vitamin-rich',
+    copy: 'Naturally high in Vitamin C, E, and antioxidants to support immunity and skin.',
   },
   {
-    title: 'Performance First',
-    copy: 'Optimized interactions engineered to feel effortless.',
+    title: 'Cold-pressed',
+    copy: 'Minimal processing. Maximum nutrients. Zero concentrates or added sugar.',
   },
   {
-    title: 'Cinematic Narrative',
-    copy: 'Scroll-synced sequences that unfold like film.',
+    title: 'Small-batch craft',
+    copy: 'Harvested responsibly and bottled fresh — quality you can taste.',
   },
   {
-    title: 'Premium Finishes',
-    copy: 'Subtle glass, gradients, and depth — never loud.',
+    title: 'Versatile ritual',
+    copy: 'Enjoy as a morning shot, with water, or mixed into smoothies and teas.',
   },
 ]
 
@@ -31,8 +31,8 @@ export default function StoryFeatures() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
         <div className="relative">
           <motion.div style={{ scale, rotate }} className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 dark:ring-white/10">
-            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1600&auto=format&fit=crop" alt="Premium" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-transparent to-white/10 mix-blend-overlay" />
+            <img src="https://images.unsplash.com/photo-1599580782029-3f71e2988c45?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxTZWElMjBidWNrdGhvcm58ZW58MHwwfHx8MTc2MzY1OTE0N3ww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Sea buckthorn" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-amber-200/20 via-transparent to-white/10 mix-blend-overlay" />
           </motion.div>
         </div>
         <div className="space-y-10">

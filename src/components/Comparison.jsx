@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 
 const items = [
-  { title: 'Design System', points: ['Tokenized', 'Accessible', 'Responsive'], accent: 'from-emerald-400 to-emerald-600' },
-  { title: 'Motion Engine', points: ['Scroll-synced', '60fps', 'Micro-interactions'], accent: 'from-emerald-400 to-emerald-600' },
-  { title: 'Delivery', points: ['Next.js/React', 'CI-ready', 'Docs included'], accent: 'from-emerald-400 to-emerald-600' },
+  { title: 'Ingredients', points: ['100% sea buckthorn', 'Cold-pressed', 'No added sugar'], accent: 'from-amber-400 to-orange-600' },
+  { title: 'Nutrition', points: ['Rich in Vitamin C', 'Omega 7 & antioxidants', 'Plant-based'], accent: 'from-amber-400 to-orange-600' },
+  { title: 'Serving', points: ['Daily 30ml shot', 'Mix with water', 'Add to smoothies'], accent: 'from-amber-400 to-orange-600' },
 ]
 
 export default function Comparison() {
@@ -12,7 +12,7 @@ export default function Comparison() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-semibold text-black dark:text-white">At-a-glance</h2>
-          <p className="mt-2 text-gray-700/80 dark:text-gray-300/80">A concise overview of what you get.</p>
+          <p className="mt-2 text-gray-700/80 dark:text-gray-300/80">What makes Catina lui BICU different.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           {items.map((card, i) => (

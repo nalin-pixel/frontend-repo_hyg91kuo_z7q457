@@ -18,7 +18,7 @@ export default function Hero() {
           muted
           loop
           playsInline
-          src="https://cdn.coverr.co/videos/coverr-cinematic-waves-1080p.mp4"
+          src="https://videos.pexels.com/video-files/9094697/9094697-uhd_2560_1440_25fps.mp4"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/20 to-white/90 dark:from-black/50 dark:via-black/40 dark:to-black/80"/>
       </motion.div>
@@ -30,7 +30,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="text-5xl md:text-7xl font-semibold tracking-tight text-black dark:text-white"
         >
-          A premium digital experience
+          Catina lui BICU
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
           className="mt-6 text-lg md:text-xl text-gray-700/80 dark:text-gray-300/80"
         >
-          Sophisticated minimalism, cinematic motion, performance-first.
+          Sea buckthorn juice — cold-pressed, naturally potent, crafted in small batches.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -46,8 +46,8 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
           className="mt-10 flex items-center justify-center gap-3"
         >
-          <a href="#story" className="px-6 py-3 rounded-full bg-emerald-600 text-white hover:bg-emerald-500 transition-colors">Explore</a>
-          <a href="#contact" className="px-6 py-3 rounded-full border border-gray-300/60 dark:border-white/20 text-black dark:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors">Inquire</a>
+          <a href="#story" className="px-6 py-3 rounded-full bg-amber-600 text-white hover:bg-amber-500 transition-colors">Discover</a>
+          <a href="#contact" className="px-6 py-3 rounded-full border border-gray-300/60 dark:border-white/20 text-black dark:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors">Order now</a>
         </motion.div>
       </div>
     </section>

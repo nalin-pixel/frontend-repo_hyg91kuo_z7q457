@@ -6,9 +6,9 @@ export default function Manifesto() {
   const inView = useInView(ref, { margin: '-20% 0px -20% 0px', once: true })
 
   const lines = [
-    'Design that feels inevitable.',
-    'Motion that tells a story.',
-    'Craft at the speed of thought.'
+    'Real fruit. Real vitamins. Real taste.',
+    'Cold-pressed to preserve nature’s profile.',
+    'No additives. No shortcuts. Just Catina.'
   ]
 
   return (
